@@ -1,0 +1,7 @@
+version: '2'
+services:
+  python-app:
+    image: 'mentoring-feedback-report'
+    container_name: python-app
+    ports:
+      - '5000:5000'
